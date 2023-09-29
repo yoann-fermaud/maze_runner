@@ -28,7 +28,6 @@ public class SimpleImperfectMazeGenerator implements MazeGenerator {
         stack.push(new Cell(1, 1));
         // -----------------------------------------------------------------------
         while (!stack.isEmpty()) {
-            System.out.println(!stack.isEmpty());
             Cell current = stack.pop();
 
             int x = current.x;
